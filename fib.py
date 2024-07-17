@@ -5,7 +5,7 @@ def main():
     print("Fibonacci sequence:")
     print(a,end=" ")
     print(b,end=" ")
-    for i in range(n-2):
+    for _ in range(n-2):
         c=a+b
         print(c,end=" ")
         a=b
